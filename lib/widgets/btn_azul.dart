@@ -14,7 +14,7 @@ class BotonAzul extends StatelessWidget {
         shape: StadiumBorder(),
         elevation: 2,
       ),
-      onPressed: () {},
+      onPressed: this.onPressed,
       child: Container(
         width: double.infinity,
         height: 55,
